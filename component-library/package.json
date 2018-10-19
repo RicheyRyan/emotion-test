@@ -1,0 +1,35 @@
+{
+  "name": "component-library",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/Index.js",
+  "dependencies": {
+    "create-emotion": "^9.2.12",
+    "emotion": "^9.2.12",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-scripts": "2.0.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-emotion": "^9.2.11",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-env": "^1.6.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build:react": "react-scripts build",
+    "build:babel": "babel -d dist/ src/Components",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
